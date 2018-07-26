@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Museo_Sans_500';
+	src: url('MuseoSans-500.woff2') format('woff2'),
+		url('MuseoSans-500.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'Museo_Sans_300';
+	src: url('MuseoSans-300.woff2') format('woff2'),
+		url('MuseoSans-300.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'Museo_Sans_700';
+	src: url('MuseoSans-700.woff2') format('woff2'),
+		url('MuseoSans-700.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'Museo_Sans_900';
+	src: url('MuseoSans-900.woff2') format('woff2'),
+		url('MuseoSans-900.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	}

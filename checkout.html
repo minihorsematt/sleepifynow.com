@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sleepify</title>
+
+<!--REQUIRD CSS-->
+<link rel="stylesheet" type="text/css" href="css/cp.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+<div class="header">
+	<div class="container">
+        <img src="images/toplogo.png" class="toplogo" />
+    </div>
+</div>
+<div class="cp-banner">
+	<div class="container">
+    	<h2>Our Offer Packages</h2>
+    </div>
+</div>
+<!--=========CONTENT-SECTION=========-->
+<div class="content-section">
+	<div class="container">
+    	<!--==================-->
+    	<div class="content-lft">
+        	<!--==================-->
+        	<div class="hdng-strip">	
+            	<img src="images/ic1-hdng.png" class="ic-hdng">
+            	<p class="p1"><span>Step 1 : </span>Select Quantity</p>
+            </div>
+            <p class="p2">Choose Your Exclusive  Package Below</p>
+            <!--=========pack1=========-->
+            <a href="javascript:bookmarkscroll.scrollTo('scroll-frm')">
+                <div class="package-box1" id="box-a">
+                    <div class="pkg-hdng">
+                        <div class="icdiv-hdng1" id="radio1"></div>
+                        <p class="p3">6 Pack of Sleepify</p>
+                    </div>
+                    <div class="pkg-dtl">
+                        <div class="pkg-dtl-lft">
+                            <img src="images/six-pack.jpg" class="prod1-pkg">
+                        </div>
+                        <div class="pkg-dtl-rgt">
+                            <p class="p5">Best Value Package</p>
+                            <p class="p8"><sup>$</sup>219.<span>99</span></p>
+                            <div class="btn-div" id="btn1"></div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!--=========pack2=========-->
+            <a href="javascript:bookmarkscroll.scrollTo('scroll-frm')">
+            <div class="package-box2" id="box-b">
+            	<div class="pkg-hdng">
+                	<div class="icdiv-hdng1" id="radio2"></div>
+            		<p class="p3" id="p3-2">4 Pack of Sleepify</p>
+ 
+                </div>
+                <div class="pkg-dtl">
+                	<div class="pkg-dtl-lft">
+                    	<img src="images/four-pack.jpg" class="prod2-pkg">
+                    </div>
+                    <div class="pkg-dtl-rgt">
+                    	<p class="p5">Top Tier Package</p>
+                        <p class="p8"><sup>$</sup>149.<span>99</span></p>
+                        <div class="btn-div" id="btn2"></div>
+                    </div>
+                </div>
+            </div>
+            </a>
+            <!--=========pack3=========-->
+            <a href="javascript:bookmarkscroll.scrollTo('scroll-frm')">
+            <div class="package-box3" id="box-c">
+            	<div class="pkg-hdng">
+                	<div class="icdiv-hdng1" id="radio3"></div>
+            		<p class="p3" id="p3-3">2 Pack of Sleepify</p>
+                </div>
+                <div class="pkg-dtl brdr1">
+                	<div class="pkg-dtl-lft">
+                    	<img src="images/two-pack.jpg" class="prod3-pkg">
+                    </div>
+                    <div class="pkg-dtl-rgt">
+                    	<p class="p5">Most Popular</p>
+                        <p class="p8"><sup>$</sup>77.<span>99</span></p>
+                        <div class="btn-div" id="btn3"></div>
+                    </div>
+                </div>
+            </div>
+            </a>
+            <!--==================--> 
+        </div>
+        <!--==================-->
+        <div class="content-rgt">
+        	<div class="content-rgt-in">
+            	<div class="hdng-strip">	
+                    <img src="images/ic2-hdng.png" class="ic-hdng">
+                    <p class="p1"><span>Step 2 : </span>Billing Information</p>
+                </div>
+                <div class="frm-box">
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic1-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="First Name" />
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic1-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Last Name" />
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic2-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Email Address" />
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic3-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Phone Number" />
+                    </div>
+                    <div class="frmfld w1-inp">
+                        <div class="iconbox"><img src="images/ic4-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Street Address" />
+                    </div>
+                    <div class="frmfld w2-inp">
+                        <input type="text" class="inp-css"/>
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic5-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="City" />
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic6-frm.png" alt="" class="fldicon"></div>
+                        <select class="inp-css">
+                            <option selected="">Select State</option>  
+                            <option value="AL" onclick="">Alabama (AL)</option>
+                            <option value="AK" onclick="">Alaska (AK)</option>
+                            <option value="AS" onclick="">American Samoa (AS)</option>
+                            <option value="AZ" onclick="">Arizona (AZ)</option>
+                            <option value="AR" onclick="">Arkansas (AR)</option>
+                            <option value="AE-A" onclick="">Armed Forces Africa (AE)</option>
+                            <option value="AA" onclick="">Armed Forces Americas (AA)</option>
+                            <option value="AE-C" onclick="">Armed Forces Canada (AE)</option>
+                            <option value="AE-E" onclick="">Armed Forces Europe (AE)</option>
+                            <option value="AE-M" onclick="">Armed Forces Middle East (AE)</option>
+                            <option value="AP" onclick="">Armed Forces Pacific (AP)</option>
+                            <option value="CA" onclick="">California (CA)</option>
+                            <option value="CO" onclick="">Colorado (CO)</option>
+                            <option value="CT" onclick="">Connecticut (CT)</option>
+                            <option value="DE" onclick="">Delaware (DE)</option>
+                            <option value="DC" onclick="">District of Columbia (DC)</option>
+                            <option value="FM" onclick="">Federated States of Micronesia (FM)</option>
+                            <option value="FL" onclick="">Florida (FL)</option>
+                            <option value="GA" onclick="">Georgia (GA)</option>
+                            <option value="GU" onclick="">Guam (GU)</option>
+                            <option value="HI" onclick="">Hawaii (HI)</option>
+                            <option value="ID" onclick="">Idaho (ID)</option>
+                            <option value="IL" onclick="">Illinois (IL)</option>
+                            <option value="IN" onclick="">Indiana (IN)</option>
+                            <option value="IA" onclick="">Iowa (IA)</option>
+                            <option value="KS" onclick="">Kansas (KS)</option>
+                            <option value="KY" onclick="">Kentucky (KY)</option>
+                            <option value="LA" onclick="">Louisiana (LA)</option>
+                            <option value="ME" onclick="">Maine (ME)</option>
+                            <option value="MD" onclick="">Maryland (MD)</option>
+                            <option value="MA" onclick="">Massachusetts (MA)</option>
+                            <option value="MI" onclick="">Michigan (MI)</option>
+                            <option value="MN" onclick="">Minnesota (MN)</option>
+                            <option value="MS" onclick="">Mississippi (MS)</option>
+                            <option value="MO" onclick="">Missouri (MO)</option>
+                            <option value="MT" onclick="">Montana (MT)</option>
+                            <option value="NE" onclick="">Nebraska (NE)</option>
+                            <option value="NV" onclick="">Nevada (NV)</option>
+                            <option value="NH" onclick="">New Hampshire (NH)</option>
+                            <option value="NJ" onclick="">New Jersey (NJ)</option>
+                            <option value="NM" onclick="">New Mexico (NM)</option>
+                            <option value="NY" onclick="">New York (NY)</option>
+                            <option value="NC" onclick="">North Carolina (NC)</option>
+                            <option value="ND" onclick="">North Dakota (ND)</option>
+                            <option value="MP" onclick="">Northern Mariana Islands (MP)</option>
+                            <option value="OH" onclick="">Ohio (OH)</option>
+                            <option value="OK" onclick="">Oklahoma (OK)</option>
+                            <option value="OR" onclick="">Oregon (OR)</option>
+                            <option value="PA" onclick="">Pennsylvania (PA)</option>
+                            <option value="PR" onclick="">Puerto Rico (PR)</option>
+                            <option value="MH" onclick="">Republic of Marshall Islands (MH)</option>
+                            <option value="RI" onclick="">Rhode Island (RI)</option>
+                            <option value="SC" onclick="">South Carolina (SC)</option>
+                            <option value="SD" onclick="">South Dakota (SD)</option>
+                            <option value="TN" onclick="">Tennessee (TN)</option>
+                            <option value="TX" onclick="">Texas (TX)</option>
+                            <option value="UT" onclick="">Utah (UT)</option>
+                            <option value="VT" onclick="">Vermont (VT)</option>
+                            <option value="VI" onclick="">Virgin Islands of the U.S. (VI)</option>
+                            <option value="VA" onclick="">Virginia (VA)</option>
+                            <option value="WA" onclick="">Washington (WA)</option>
+                            <option value="WV" onclick="">West Virginia (WV)</option>
+                            <option value="WI" onclick="">Wisconsin (WI)</option>
+                            <option value="WY" onclick="">Wyoming (WY)</option>
+                        </select>
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic7-frm.png" alt="" class="fldicon"></div>
+                        <select class="inp-css">                    	
+                            <option selected>United States</option>
+                        </select>
+                    </div>
+                    <div class="frmfld">
+                        <div class="iconbox"><img src="images/ic8-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Zip Code / postal Code" />
+                    </div>
+                </div>
+        	</div>
+            <!--==================-->
+            
+            <!--==================-->
+            <div class="content-rgt-in">
+            	<div class="hdng-strip">	
+                    <img src="images/ic4-hdng.png" class="ic-hdng">
+                    <p class="p1"><span>Step 4 : </span>Payment Information</p>
+                </div>
+                <div class="frm-box">
+                	<center><img src="images/cards.jpg" alt="" class="cards"></center>
+                    <div class="frmfld w1-inp">
+                        <div class="iconbox"><img src="images/ic9-frm.png" alt="" class="fldicon"></div>
+                        <input type="text" class="inp-css" placeholder="Credit Card" />
+                    </div>
+                    <div class="frmfld w2-inp">
+                        <input type="text" class="inp-css" placeholder="CVV"/>
+                    </div>
+                    <div class="frmfld w3-inp">
+                        <div class="iconbox"><img src="images/ic10-frm.png" alt="" class="fldicon"></div>
+                        <select class="inp-css">
+                            <option value="">Month</option>                            
+                            <option value="01">January</option> 
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                    <div class="frmfld w4-inp">
+                    	<div class="iconbox"><img src="images/ic10-frm.png" alt="" class="fldicon"></div>
+                        <select class="inp-css">
+                            <option value="">Year</option>                                 
+                            <option value="17">2017</option>
+                            <option value="18">2018</option>
+                            <option value="19">2019</option>
+                            <option value="20">2020</option>
+                            <option value="21">2021</option>
+                            <option value="22">2022</option>
+                            <option value="23">2023</option>
+                            <option value="24">2024</option>  
+                        </select> 
+                    </div>
+                    <p style="float:left; width:100%; font-size:16px; margin:10px 0;"><input type="checkbox" name="agree"> I agree to the <a href="terms.html" class="fancybox fancybox.iframe" style="color:#000; text-decoration:underline;">Terms & Conditions</a> and <a href="privacy.html" class="fancybox fancybox.iframe " style="color:#000; text-decoration:underline;">Privacy Policy</a></p>
+                    <input class="btn-submit" src="images/btn-submit.png" type="image">
+                </div>
+        	</div>
+        </div>
+        <!--==================-->
+        
+    </div>
+</div>
+
+<div class="footer">
+	<div class="container">
+    	<p><a href="terms.html" class="fancybox fancybox.iframe">Terms & Conditions</a> | <a href="privacy.html" class="fancybox fancybox.iframe">Privacy Policy</a> | <a href="contact.html" class="fancybox fancybox.iframe">Contact</a><br><br>
+Company Name LLC<br><br>
+8000 Provin Gravida Auctor SE, Elizabeth IN, 35226, USA<br><br>
+Email: support@sleepify.com<br><br>
+Customer Service : 1-800-000-0000</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script type="text/javascript">
+	 $(document).ready(function() {
+		 
+		 $('.fancybox').fancybox(); 		
+
+		$('#btn1').html('<img src="images/btn-selected.png">');
+		$('#btn2, #btn3').html('<img src="images/btn-select.png">');
+		$('#radio1').html('<img src="images/radio-chk.png" class="radio-hdng">');
+		$('#radio2, #radio3').html('<img src="images/radio-unchk.png" class="radio-hdng">');
+		$('.package-box1').addClass('select');
+		
+		$('#box-a').click(function(){
+			$('#btn1').html('<img src="images/btn-selected.png">');
+			$('#btn2, #btn3').html('<img src="images/btn-select.png">');
+			$('#radio1').html('<img src="images/radio-chk.png" class="radio-hdng">');
+			$('#radio2, #radio3').html('<img src="images/radio-unchk.png" class="radio-hdng">');
+			
+			$('.package-box1').addClass('select');
+			$('.package-box2').removeClass('select');
+			$('.package-box3').removeClass('select');
+        }); 
+		
+		$('#box-b').click(function(){
+			$('#btn2').html('<img src="images/btn-selected.png">');
+			$('#btn3, #btn1').html('<img src="images/btn-select.png">');
+			$('#radio2').html('<img src="images/radio-chk.png" class="radio-hdng">');
+			$('#radio3, #radio1').html('<img src="images/radio-unchk.png" class="radio-hdng">');
+			
+			$('.package-box1').removeClass('select');
+			$('.package-box2').addClass('select');
+			$('.package-box3').removeClass('select');
+        }); 
+		
+		$('#box-c').click(function(){
+			$('#btn3').html('<img src="images/btn-selected.png">');
+			$('#btn1, #btn2').html('<img src="images/btn-select.png">');
+			$('#radio3').html('<img src="images/radio-chk.png" class="radio-hdng">');
+			$('#radio1, #radio2').html('<img src="images/radio-unchk.png" class="radio-hdng">');
+			
+			$('.package-box1').removeClass('select');
+			$('.package-box2').removeClass('select');
+			$('.package-box3').addClass('select');
+        }); 
+
+	 });
+</script>
+</body>
+</html>
